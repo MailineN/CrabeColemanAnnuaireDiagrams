@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T08:38:16.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="-OrA2hmz7HKEwQTY8K1T" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-18T08:41:45.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="fgCQiNJbOzM8Z8Nx-Ha2" version="17.1.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1242" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="497" dy="294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,7 +86,7 @@
             <mxPoint x="760" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NftAxaM487FhpwE2u1ZJ-14" value="OK(id)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
+        <mxCell id="NftAxaM487FhpwE2u1ZJ-14" value="OK(id,List&lt;Compte&gt;)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="760" y="350" as="sourcePoint" />
             <mxPoint x="410" y="350" as="targetPoint" />
@@ -107,10 +107,10 @@
         <mxCell id="NftAxaM487FhpwE2u1ZJ-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="395" y="265" width="10" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="NftAxaM487FhpwE2u1ZJ-20" value="POST: addToSurvey(List&lt;Person&gt;Object)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.009;exitY=0.692;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=9;" parent="1" source="NftAxaM487FhpwE2u1ZJ-22" target="NftAxaM487FhpwE2u1ZJ-19" edge="1">
+        <mxCell id="NftAxaM487FhpwE2u1ZJ-20" value="POST: addToSurvey(List&lt;Person&gt;Object, &#xa;List&lt;Comptes?&gt;)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.028;exitY=0.769;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=9;" parent="1" source="NftAxaM487FhpwE2u1ZJ-22" target="NftAxaM487FhpwE2u1ZJ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="399.9999999999998" y="380" as="sourcePoint" />
-            <mxPoint x="570" y="380" as="targetPoint" />
+            <mxPoint x="570" y="395" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NftAxaM487FhpwE2u1ZJ-25" value="GET: controlSurveyInfo(surveyID)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.211;exitY=0.213;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#EA6B66;" parent="1" edge="1">
