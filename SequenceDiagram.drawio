@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T08:42:06.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="qUtPNQMvcpgi4AK7QiC8" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-04T07:00:32.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="R-LSMAfelvlo9Cw_gRub" version="17.4.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="497" dy="294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="430" dy="293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="160" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="GET :  sampleToSurvey(sampleSize,surveyID)" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontColor=#EA6B66;" parent="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="GET :  sampleToSurvey(sampleSize,surveyID)" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontColor=#000000;" parent="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-125" y="130" as="sourcePoint" />
             <mxPoint x="225" y="130" as="targetPoint" />
@@ -20,25 +20,13 @@
           <mxGeometry x="345" y="110" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="NftAxaM487FhpwE2u1ZJ-28" value="PUT/PATCH: surveyReady(surveyID)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.211;exitY=0.213;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#EA6B66;" parent="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-305" y="499.9999999999999" as="sourcePoint" />
-            <mxPoint x="225" y="500" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NftAxaM487FhpwE2u1ZJ-29" value="OK(id)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontColor=#EA6B66;" parent="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="549.2" as="sourcePoint" />
-            <mxPoint x="-305" y="549" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="45" y="80" width="10" height="390" as="geometry" />
         </mxCell>
         <mxCell id="NftAxaM487FhpwE2u1ZJ-1" value=":Coleman" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="110" width="100" height="590" as="geometry" />
+          <mxGeometry x="530" y="110" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="NftAxaM487FhpwE2u1ZJ-19" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="NftAxaM487FhpwE2u1ZJ-1" vertex="1">
-          <mxGeometry x="45" y="60" width="10" height="450" as="geometry" />
+          <mxGeometry x="45" y="60" width="10" height="410" as="geometry" />
         </mxCell>
         <mxCell id="NftAxaM487FhpwE2u1ZJ-11" value="OK(id)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="NftAxaM487FhpwE2u1ZJ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -70,7 +58,7 @@
         </mxCell>
         <mxCell id="NftAxaM487FhpwE2u1ZJ-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="710" as="sourcePoint" />
+            <mxPoint x="40" y="610" as="sourcePoint" />
             <mxPoint x="40" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -92,13 +80,13 @@
             <mxPoint x="410" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NftAxaM487FhpwE2u1ZJ-17" value="GET: sample(sampleSize)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.053;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.138;exitY=0.262;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+        <mxCell id="NftAxaM487FhpwE2u1ZJ-17" value="GET: sample(sampleSize)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.053;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.182;exitY=0.21;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="330" as="sourcePoint" />
             <mxPoint x="570" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NftAxaM487FhpwE2u1ZJ-18" value="OK(id), List&lt;Person&gt;Object" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.066;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="NftAxaM487FhpwE2u1ZJ-18" value="OK(id), List&lt;Person&gt;Object" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.045;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="330" as="sourcePoint" />
             <mxPoint x="600" y="330" as="targetPoint" />
@@ -113,15 +101,15 @@
             <mxPoint x="570" y="395" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NftAxaM487FhpwE2u1ZJ-25" value="GET: controlSurveyInfo(surveyID)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.211;exitY=0.213;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#EA6B66;" parent="1" edge="1">
+        <mxCell id="NftAxaM487FhpwE2u1ZJ-25" value="GET: controlSurveyInfo(surveyID)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.211;exitY=0.213;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="520.9999999999999" as="sourcePoint" />
-            <mxPoint x="570" y="521" as="targetPoint" />
+            <mxPoint x="390" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NftAxaM487FhpwE2u1ZJ-27" value="OK(id,vueSurvey?)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontColor=#EA6B66;" parent="1" edge="1">
+        <mxCell id="NftAxaM487FhpwE2u1ZJ-27" value="OK(id,vueSurvey?)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="575" y="570.2" as="sourcePoint" />
+            <mxPoint x="390" y="570" as="sourcePoint" />
             <mxPoint x="40" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
